@@ -1,0 +1,58 @@
+.detalle-header {
+  text-align: center;
+  margin-top: 100px;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+}
+.detalle-header h1 {
+  color: #0a2540;
+  font-size: 2.2em;
+}
+.detalle-header .empresa {
+  color: #38bdf8;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+.btn-aplicar {
+  background-color: #38bdf8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-aplicar:hover {
+  background-color: #0ea5e9;
+}
+.detalle-contenido {
+  max-width: 900px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+.detalle-contenido section {
+  margin-bottom: 40px;
+}
+.detalle-contenido h2 {
+  color: #0a2540;
+  margin-bottom: 15px;
+}
+.detalle-contenido p {
+  color: #444;
+  line-height: 1.6;
+}
+.detalle-contenido ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: #444;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .detalle-header h1 {
+    font-size: 1.8em;
+  }
+  .detalle-contenido {
+    padding: 10px;
+  }
+}

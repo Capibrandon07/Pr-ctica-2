@@ -1,0 +1,113 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevJobs - Empleos</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/empleos.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">DevJobs</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Buscar</a></li>
+      <li><a href="empleos.html">Empleos</a></li>
+      <li><a href="#">Empresas</a></li>
+      <li><a href="#">Salarios</a></li>
+    </ul>
+    <div class="nav-buttons">
+      <button class="btn-publicar">Publicar un empleo</button>
+    </div>
+    <div class="nav-user">
+      <img src="imagenes/fotito.jpg" alt="Tu foto" class="avatar">
+      <span class="user-name">Limachi Quispe Jose Brandon</span>
+    </div>
+  </nav>
+
+  <section class="header-empleos">
+    <h1>Encuentra tu próximo trabajo</h1>
+    <p>Explora miles de oportunidades en el sector tecnologico.</p>
+    <br>
+    <div class="search-bar">
+        <input type="text" placeholder="🔍️ Buscar trabajos, empresas o habilidades">
+        
+  </section>
+  
+
+  <section class="filtros">
+    <select>
+      <option>Tecnología</option>
+      <option>Frontend</option>
+      <option>Backend</option>
+      <option>Full Stack</option>
+      <option>Data Science</option>
+    </select>
+
+    <select>
+      <option>Ubicación</option>
+      <option>Remoto</option>
+      <option>La Paz</option>
+      <option>Cochabamba</option>
+      <option>Santa Cruz</option>
+    </select>
+
+    <select>
+      <option>Tipo de contrato</option>
+      <option>Tiempo completo</option>
+      <option>Medio tiempo</option>
+      <option>Freelance</option>
+    </select>
+
+    <select>
+      <option>Nivel de experiencia</option>
+      <option>Junior</option>
+      <option>Semisenior</option>
+      <option>Senior</option>
+    </select>
+
+  </section>
+
+  <section class="lista-empleos">
+    <div class="empleo">
+      <h3>Desarrollador Frontend</h3>
+      <span class="empresa">Tech Solutions · Remoto</span>
+      <p>Buscamos un desarrollador con experiencia en React y Tailwind CSS.</p>
+      <a href="detalle-empleo.html" class="btn-aplicar">Aplicar</a>
+    </div>
+
+    <div class="empleo">
+      <h3>Ingeniero de Software Senior</h3>
+      <span class="empresa">DevCore · La Paz</span>
+      <p>Únete a un equipo innovador construyendo aplicaciones escalables.</p>
+      <a href="detalle-empleo.html" class="btn-aplicar">Aplicar</a>
+    </div>
+
+    <div class="empleo">
+      <h3>Backend Developer</h3>
+      <span class="empresa">SoftLab · Cochabamba</span>
+      <p>Experiencia en Node.js, Express y bases de datos SQL.</p>
+      <a href="detalle-empleo.html" class="btn-aplicar">Aplicar</a>
+    </div>
+
+    <div class="empleo">
+      <h3>UI/UX Designer</h3>
+      <span class="empresa">InnovateX · Santa Cruz</span>
+      <p>Buscamos un diseñador con pasión por la experiencia de usuario.</p>
+      <a href="detalle-empleo.html" class="btn-aplicar">Aplicar</a>
+    </div>
+  </section>
+
+  <div class="paginacion">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+  </div>
+
+  <footer>
+    <p>© 2025 DevJobs. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
